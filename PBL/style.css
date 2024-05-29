@@ -1,0 +1,45 @@
+@font-face 
+        {
+            font-family: 'Archivo_Black'; /*memberikan nama bebas untuk font*/
+            src: url('Archivo_Black/ArchivoBlack-Regular.ttf');/*memanggil file font eksternalnya di folder nexa*/
+        }
+        /*h2
+        {
+            font-family: 'Archivo_Black';
+        }*/
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+}
+
+.form-check label,
+.form-check-input,
+.btn {
+    color: #fff;
+}
+
+#emailHelp {
+    color: #fff;
+}
+
+.signup-btn-container {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.black-text {
+    color: #000 !important;
+}
